@@ -1,0 +1,54 @@
+.elemento_navigator.activo {
+    background-color: #002365;
+    color: white;
+}
+
+.perfil-profesional-container {
+    padding-left: 100px; /* Espacio alrededor del contenido */
+    padding-right: 100px; /* Espacio alrededor del contenido */
+    margin: 40px 20px; /* Margen superior e inferior */
+}
+
+.perfil-profesional-container p {
+    font-size: 1.2em; /* Tamaño de fuente para el párrafo */
+    color: #333; /* Color del texto del párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+
+/* Estilo de la sección del equipo */
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Estilo de cada miembro del equipo */
+.team-member {
+    text-align: center;
+    margin: 20px;
+    flex-basis: 20%; /* Ajusta este valor si necesitas más o menos espacio */
+}
+
+/* Imagen redonda para los miembros */
+.team-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Ajuste de los nombres y cargos */
+.team-member h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.team-member h4 {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 10px;
+}
+

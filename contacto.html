@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="multimedia/colegio-logo-pestaña.png" type="image/png">
+    
+    <title>Colegio Santo Domingo</title>
+</head>
+<body>
+    
+    <header>
+        <div class="div_logo_colegio">
+            <img src="multimedia\colegio-logo-nav.png" class="logo_colegio_navigator" title="Logo Colegio Santo Domingo">
+        </div>
+        <nav>
+            <ul class="lista_elementos_navigator">
+                <li class="elemento_navigator"><a href="index.html">Inicio</a></li>
+                <li class="elemento_navigator"><a href="nuestroColegio.html">Nuestro Colegio</a></li>
+                <li class="elemento_navigator"><a href="nuestroEquipo.html">Nuestro Equipo</a></li>
+                <li class="elemento_navigator"><a href="vidaEscolar.html">Vida Escolar</a></li>
+                <li class="elemento_navigator activo"><a href="contacto.html">Contactanos</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon">
+                ☰ <!-- Icono de hamburguesa -->
+            </div>
+        </nav>
+    </header>
+
+    <div class="contact-image-container">
+        <img src="https://img.freepik.com/fotos-premium/pantalla-azul-television-muestra-estrella_1278706-63346.jpg" alt="Contact Image" class="contact-image">
+        <h1 class="contact-title">Contáctanos</h1>
+    </div>
+
+    <section class="contact-section">
+        <div class="contact-options">
+            <button id="phone-btn" class="contact-btn active">Números Telefónicos</button>
+            <button id="email-btn" class="contact-btn">Correos Electrónicos</button>
+        </div>
+
+        <div id="contact-info" class="contact-info-container">          
+                <div id="phone-info" class="info-box">
+                    <ul>
+                        <li><strong>Secretaría General:</strong> <a href="tel:+56912345678">+56 9 1234 5678</a></li>
+                        <li><strong>Rectoría:</strong> <a href="tel:+56987654321">+56 9 8765 4321</a></li>
+                        <li><strong>Coordinación Académica:</strong> <a href="tel:+56923456789">+56 9 2345 6789</a></li>
+                        <li><strong>Administración:</strong> <a href="tel:+56998765432">+56 9 9876 5432</a></li>
+                        <li><strong>Atención a Padres:</strong> <a href="tel:+56934567890">+56 9 3456 7890</a></li>
+                        <li><strong>Admisiones:</strong> <a href="tel:+56976543210">+56 9 7654 3210</a></li>
+                        <li><strong>Contabilidad:</strong> <a href="tel:+56945678901">+56 9 4567 8901</a></li>
+                        <li><strong>Inspectoría:</strong> <a href="tel:+56965432109">+56 9 6543 2109</a></li>
+                        <li><strong>Biblioteca:</strong> <a href="tel:+56956789012">+56 9 5678 9012</a></li>
+                        <li><strong>Coordinación de Deportes:</strong> <a href="tel:+56976543298">+56 9 7654 3298</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="contact-info" class="contact-info-container">
+    
+                <div id="email-info" class="info-box hidden">
+                    <ul>
+                        <li><strong>Email 1:</strong> contacto1@colegiosantodomingo.cl</li>
+                        <li><strong>Email 2:</strong> contacto2@colegiosantodomingo.cl</li>
+                        <li><strong>Email 3:</strong> contacto3@colegiosantodomingo.cl</li>
+                        <li><strong>Email 4:</strong> contacto4@colegiosantodomingo.cl</li>
+                        <li><strong>Email 5:</strong> contacto5@colegiosantodomingo.cl</li>
+                        <li><strong>Email 6:</strong> contacto6@colegiosantodomingo.cl</li>
+                        <li><strong>Email 7:</strong> contacto7@colegiosantodomingo.cl</li>
+                        <li><strong>Email 8:</strong> contacto8@colegiosantodomingo.cl</li>
+                        <li><strong>Email 9:</strong> contacto9@colegiosantodomingo.cl</li>
+                        <li><strong>Email 10:</strong> contacto10@colegiosantodomingo.cl</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Menú Overlay -->
+    <div class="menu-overlay hidden" id="menu-overlay">
+        <div class="close-icon" id="close-icon">✖</div>
+        <ul class="overlay-menu">
+            <li class="elemento_navigator"><a href="index.html">Inicio</a></li>
+            <li class="elemento_navigator"><a href="nuestroColegio.html">Nuestro Colegio</a></li>
+            <li class="elemento_navigator"><a href="nuestroEquipo.html">Nuestro Equipo</a></li>
+            <li class="elemento_navigator"><a href="vidaEscolar.html">Vida Escolar</a></li>
+            <li class="elemento_navigator activo"><a href="contacto.html">Contactanos</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-school-regulations-section">
+                <h2 class="footer-title">Normas Escolares</h2>
+                <nav>
+                    <ol class="footer-list">
+                        <li><a href="#">Reglamento Interno</a></li>
+                        <li><a href="#">Derechos</a></li>
+                        <li><a href="#">Deberes</a></li>
+                    </ol>
+                </nav>
+            </div>
+    
+            <div class="footer-contact-section">
+                <h2 class="footer-title">Contáctanos</h2>
+                <nav>
+                    <ol class="footer-list">
+                        <li><a href="#">Mapa y Dirección</a></li>
+                        <li><a href="#">Teléfono</a></li>
+                        <li><a href="#">Correos</a></li>
+                    </ol>
+                </nav>
+            </div>
+    
+            <div class="footer-educational-project-section">
+                <h2 class="footer-title">Proyecto Educativo</h2>
+                <nav>
+                    <ol class="footer-list">
+                        <li><a href="#">Comunidad</a></li>
+                        <li><a href="#">Visión</a></li>
+                        <li><a href="#">Misión</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <h3 class="footer-address">Gabriel González Videla 2263, La Serena, Región de Coquimbo, Chile</h3>
+    
+            <img src="multimedia\colegio-logo-footer.png" alt="Logo del Colegio Santo Domingo" class="footer-logo">
+    
+            <div class="social-media-section">
+                <ul class="social-media-list">
+                    <li class="social-follow__item social-follow__item--instagram">
+                        <a href="https://www.instagram.com/harvard/" class="social-follow__anchor" rel="me noopener" title="Instagram">
+                            <span>Instagram</span>
+                            <img src="https://www.harvard.edu/wp-content/uploads/2023/11/Instagram-1.png" alt="Instagram" aria-hidden="true">
+                        </a>
+                    </li>
+                    <li class="social-follow__item social-follow__item--tiktok">
+                        <a href="https://www.tiktok.com/@harvard" class="social-follow__anchor" rel="me noopener" title="TikTok">
+                            <span>TikTok</span>
+                            <img src="https://www.harvard.edu/wp-content/uploads/2023/11/tiktok-1.png" alt="TikTok" aria-hidden="true">
+                        </a>
+                    </li>
+                    <li class="social-follow__item social-follow__item--facebook">
+                        <a href="https://www.facebook.com/Harvard/" class="social-follow__anchor" rel="me noopener" title="Facebook">
+                            <span>Facebook</span>
+                            <img src="https://www.harvard.edu/wp-content/uploads/2023/11/FB3.png" alt="Facebook" aria-hidden="true">
+                        </a>
+                    </li>
+                    <li class="social-follow__item social-follow__item--youtube">
+                        <a href="https://www.youtube.com/harvard" class="social-follow__anchor" rel="me noopener" title="YouTube">
+                            <span>YouTube</span>
+                            <img src="https://www.harvard.edu/wp-content/uploads/2023/11/youtube-1.png" alt="YouTube" aria-hidden="true">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contact-us.js"></script>
+    <script src="funcionalidadMenu.js"></script>
+</body>
+</html>
